@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-<<<<<<< HEAD
-project(super_milaprkpv_study_pkg)
-=======
 project(study_pkg)
->>>>>>> e6885f34780ae02c0dee27b8da0a6bd93d835eb3
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -106,11 +102,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-<<<<<<< HEAD
-#  LIBRARIES super_milaprkpv_study_pkg
-=======
 #  LIBRARIES study_pkg
->>>>>>> e6885f34780ae02c0dee27b8da0a6bd93d835eb3
 #  CATKIN_DEPENDS rospy
 #  DEPENDS system_lib
 )
@@ -128,11 +120,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-<<<<<<< HEAD
-#   src/${PROJECT_NAME}/super_milaprkpv_study_pkg.cpp
-=======
 #   src/${PROJECT_NAME}/study_pkg.cpp
->>>>>>> e6885f34780ae02c0dee27b8da0a6bd93d835eb3
 # )
 
 ## Add cmake target dependencies of the library
@@ -143,11 +131,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-<<<<<<< HEAD
-# add_executable(${PROJECT_NAME}_node src/super_milaprkpv_study_pkg_node.cpp)
-=======
 # add_executable(${PROJECT_NAME}_node src/study_pkg_node.cpp)
->>>>>>> e6885f34780ae02c0dee27b8da0a6bd93d835eb3
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -211,11 +195,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-<<<<<<< HEAD
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_super_milaprkpv_study_pkg.cpp)
-=======
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_study_pkg.cpp)
->>>>>>> e6885f34780ae02c0dee27b8da0a6bd93d835eb3
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
