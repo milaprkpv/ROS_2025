@@ -1,0 +1,4 @@
+<launch>
+    <node name="poly" pkg="super_milaprkpv_study_pkg" type="poly.py" output="screen"/>
+    <node name="sum" pkg="super_milaprkpv_study_pkg" type="sum.py" output="screen"/>
+</launch>
